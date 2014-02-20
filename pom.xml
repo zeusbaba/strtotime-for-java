@@ -32,4 +32,17 @@
 	  	</dependency>
 		 -->
 	</dependencies>
+	<developers>
+        <developer>
+            <id>WareNinja</id>
+            <name>Incognito Ninja</name>
+            <email>yg@wareninja.com</email>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>Apache License Version 2.0</name>
+            <url>LICENSE.txt</url>
+        </license>
+    </licenses>
 </project>
