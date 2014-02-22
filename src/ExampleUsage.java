@@ -6,7 +6,6 @@
  *  disclaimer: I code for fun, dunno what I'm coding about :-)
  */
 
-package com.wareninja.opensource;
 
 import com.wareninja.opensource.strtotime.MyUtils;
 import com.wareninja.opensource.strtotime.Str2Time;
