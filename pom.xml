@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>strtotime-for-java</groupId>
   <artifactId>strtotime-for-java</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <name>strtotime-for-java</name>
   <description>strtotime Java library</description>
   <build>
@@ -19,23 +19,24 @@
     </plugins>
   </build>
   	<dependencies>
+  		<!-- 
 	    <dependency>
 			<groupId>commons-lang</groupId>
 			<artifactId>commons-lang</artifactId>
 			<version>2.6</version>
 		</dependency>
-		<!--
+		-->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 		  	<artifactId>commons-lang3</artifactId>
-		  	<version>3.2.1</version> 
+		  	<version>3.4</version> 
 	  	</dependency>
-		 -->
+		 
 	</dependencies>
 	<developers>
         <developer>
             <id>WareNinja</id>
-            <name>Incognito Ninja</name>
+            <name>incognito</name>
             <email>yg@wareninja.com</email>
         </developer>
     </developers>

@@ -42,8 +42,9 @@ public final class Str2Time {
         matchers.add(new DateFormatMatcher(new SimpleDateFormat("EEE, d MMM yyyy HH:mm:ss")));// e.g. Mon, 03 Dec 2012 20:00:00
         matchers.add(new DateFormatMatcher(new SimpleDateFormat("yyyy MM dd")));
         matchers.add(new DateFormatMatcher(new SimpleDateFormat("EEE MMM d HH:mm:ss Z yyyy"))); // format used by TWITTER! e.g. "Mon Sep 24 03:35:21 +0000 2012"
-        
-        // NOTE: you can add more custom matchers as you like!!!
+        matchers.add(new DateFormatMatcher(new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ"))); // format used by DISCOURSE! e.g. "2014-03-04T08:45:17.315-05:00"
+         
+        // NOTE: you can add more custom matchers as you need!!!
     }
 
     public static void registerMatcher(Matcher matcher) {

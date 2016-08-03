@@ -7,6 +7,11 @@
  */
 
 
+import java.sql.Date;
+import java.text.SimpleDateFormat;
+import java.util.Locale;
+import java.util.TimeZone;
+
 import com.wareninja.opensource.strtotime.MyUtils;
 import com.wareninja.opensource.strtotime.Str2Time;
 
@@ -44,8 +49,22 @@ public class ExampleUsage {
 		System.out.println("+2 weeks -> " + MyUtils.getFormattedDate( Str2Time.convert("2 weeks") ));
 		System.out.println("-4 weeks -> " + MyUtils.getFormattedDate( Str2Time.convert("-4 weeks") ));
 		System.out.println("Mon Sep 24 03:35:21 +0000 2012 -> " + MyUtils.getFormattedDate( Str2Time.convert("Mon Sep 24 03:35:21 +0000 2012") ));
+		System.out.println("2014-03-04T08:45:17.315-05:00 -> " + MyUtils.getFormattedDate( Str2Time.convert("2014-03-04T08:45:17.315-05:00") ));
 		
-		
+		/*
+		 String[] formats = new String[] {
+				   "yyyy-MM-dd HH:mm:ss.SSSZ",
+				   "yyyy-MM-dd'T'HH:mm:ss.SSSZ",
+				   "yyyy-MM-dd'T'HH:mm:ss.SSSZZZ",
+				   "yyyy-MM-dd'T'HH:mm:ss.SSS ZZZZZ",
+				 };
+				 for (String format : formats) {
+				   SimpleDateFormat sdf = new SimpleDateFormat(format, Locale.US);
+				   System.out.format("%30s %s\n", format, sdf.format(new Date(System.currentTimeMillis())));
+				   //sdf.setTimeZone(TimeZone.getTimeZone("UTC"));
+				   //System.out.format("%30s %s\n", format, sdf.format(new Date(System.currentTimeMillis())));
+				 }
+				 */
 	}
 
 }

@@ -14,7 +14,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 
 public class MyUtils {
 
