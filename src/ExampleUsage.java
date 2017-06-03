@@ -1,9 +1,11 @@
 /***
- *   Copyleft 2014 - WareNinja.com / Rumble In The Jungle!
+ *   Copyleft 2014 - BeerStorm / Rumble In The Jungle!
  * 
- *  @author: yg@wareninja.com
- *  @see https://github.com/WareNinja
- *  disclaimer: I code for fun, dunno what I'm coding about :-)
+ *  @author: yilmaz@guleryuz.net 
+ *  @see https://github.com/ZeusBaba | http://www.BeerStorm.net 
+ *  
+ *  disclaimer: I code for fun, dunno what I'm coding about!
+ *  
  */
 
 
